@@ -1,0 +1,44 @@
+    1  defaults write com.apple.screencapture location ~/Documents/Screenshots
+    2  killall SystemUIServer
+    3  $ssh -X [mrazots]@osc-[N].edu.innopolis.ru
+    4  mkdir ~/week1
+    5  cd ~/week1
+    6  pwd
+    7  cd ~/usr/bin
+    8  cd
+    9  /usr/bin
+   10  cd ~/usr/local/bin
+   11  cd ~/usr
+   12  cd ~/local
+   13  cd ~/bin
+   14  cd ~/Users
+   15  cd ..
+   16  cd..
+   17  pwd
+   18  cd /bin
+   19  pwd
+   20  ls
+   21  ls-l
+   22  ls -l
+   23  ls | sort -r
+   24  ls > list.txt
+   25  diskutil list
+   26  cd..
+   27  cd.
+   28  pwd
+   29  cd /bin
+   30  ls
+   31  ls -a
+   32  cd .
+   33  cd ..
+   34  cd /local
+   35  cd local
+   36  cd..
+   37  pwd
+   38  cd /bin
+   39  ls
+   40  ls /usr/bin
+   41  cd ~/
+   42  cd ~/week1
+   43  ls /usr/bin | sort -r | grep gcc > ex1.txt
+   44  history > ex2.txt 
