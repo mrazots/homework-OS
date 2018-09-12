@@ -4,7 +4,7 @@
 
 int main(void) {
    int PID = fork();
-   int n = 811;
+   int n = 666;
    if(PID > 0){
        printf("Hello from parent [%d - %d]\n", PID, n);
    }
