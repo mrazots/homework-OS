@@ -2,12 +2,12 @@
 #include <stdlib.h>
    
    int main() {
-      char **s = malloc(sizeof(char *));
+      char **s;
       char foo[] = "Hello World";
-      *s = foo;
+      s = &foo;
       printf("s is %p\n", s);
-      s[0] = foo;
-      printf("s[0] is %s\n",s[0]);
+      s[0] = foo[0];
+      printf("s[0] is %s\n",s);
       
       return(0);
 }
