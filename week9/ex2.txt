@@ -1,0 +1,1 @@
+If we increase sequence of natural numbers we'll get decreased Hit/Miss ratio cause there will be no hits. Also we can use in input only on number and it will lead to increased Hit/Miss ratio because almost all references(except first) will lead to hit.
