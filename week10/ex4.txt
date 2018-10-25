@@ -1,0 +1,4 @@
+inode number: 834422930327545
+inode number: 47569271064105524
+file1
+link1
